@@ -1,19 +1,22 @@
 # NBA Player Injury Risk Prediction
 
-**Team Members:** Ashhad, Jeremy, Naseem
-**Course:** SIADS 696 Milestone 2, University of Michigan Master of Applied Data Science
-
 ## Problem Description
 
 This project predicts how many games an NBA player will miss due to injury in the following season using supervised learning (regression) and clusters players into injury risk archetypes using unsupervised learning.
 
+## Methodology
+
+- **Supervised Learning:** Linear Regression, Random Forest, XGBoost
+- **Unsupervised Learning:** K-Means, Hierarchical Clustering
+- **Train/Test Split:** 2010-2017 (train) / 2018-2019 (test) - temporal split to prevent leakage
+
 ## Data Sources
 
 1. **[elap733/NBA-Injuries-Analysis](https://github.com/elap733/NBA-Injuries-Analysis)**
-   Pre-scraped injury transaction data from prosportstransactions.com (2010-2019). Provides injury records and games missed calculations.
+   Pre-scraped injury transaction data from prosportstransactions.com (2010-2019). Provides injury records and games missed.
 
 2. **[nba_api](https://github.com/swar/nba_api)**
-   Official NBA.com stats API wrapper. Used for player statistics, biographical data, tracking data (2013-14+), and team schedules.
+   Official NBA.com stats API wrapper. Player statistics, biographical data, and team schedules.
 
 ## Repository Structure
 
