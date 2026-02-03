@@ -1,0 +1,28 @@
+# Data files (too large for git)
+data/raw/elap733/*.csv
+data/raw/nba_api/*.csv
+data/processed/*.csv
+data/final/*.csv
+
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
