@@ -55,7 +55,7 @@ MANUAL_NAME_MAPPINGS = {
     "Ishmael Smith": "Ish Smith",
     "Maurice Williams": "Mo Williams",
     "James Ennis": "James Ennis III",
-    "Jose Juan Barea": "J.J. Barea",
+    "Jose Juan Barea": "J.j. Barea",
     "Mohamed Bamba": "Mo Bamba",
 
     # Other name variations
@@ -63,7 +63,6 @@ MANUAL_NAME_MAPPINGS = {
     "Predrag Stojakovic": "Peja Stojakovic",
     "Zaur Pachulia": "Zaza Pachulia",
     "(william) Tony Parker": "Tony Parker",
-    "Jose Juan Barea": "J.j. Barea",
     "Raulzinho Neto": "Raul Neto",
     "Luc Richard Mbah A Moute": "Luc Mbah A Moute",
     "Kahlil Felder": "Kay Felder",
@@ -90,6 +89,8 @@ EXCLUDE_FROM_INJURY_DATA = [
     "Rick Carlisle",
     "Bill Walker",  # Scout, not player
     "John Collins (martin)",  # Data error
+    "John Wallace",  # Last played 2003, false fuzzy match to John Wall
+    "Monty Williams",  # Coach, false fuzzy match to Mo Williams
 ]
 
 
