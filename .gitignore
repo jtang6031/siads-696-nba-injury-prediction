@@ -1,9 +1,3 @@
-# Data files (too large for git)
-data/raw/elap733/*.csv
-data/raw/nba_api/*.csv
-data/processed/*.csv
-data/final/*.csv
-
 # Python
 *.pyc
 __pycache__/
