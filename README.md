@@ -103,6 +103,8 @@ The project follows a six-notebook pipeline, each building on the previous:
 
 ## Setup & Reproducibility
 
+Kernel: Python 3.11
+
 ### Requirements
 
 ```
@@ -134,3 +136,8 @@ python-Levenshtein
 3. Karypidis, E., et al. (2024). Unsupervised Learning in NBA Injury Recovery. *Information*, 15(1), 61.
 4. swar/nba_api — https://github.com/swar/nba_api
 5. elap733/NBA-Injury-Data — https://github.com/elap733/NBA-Injury-Data
+
+
+## Gen AI Usage
+
+The team used Gen AI in the coding section to assist in feature engineering development, data cleaning, and optimization of code in machine learning.
